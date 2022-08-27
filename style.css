@@ -37,6 +37,38 @@ body {
     padding-bottom: 100px;
 }
 
+.block2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.image {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.subtitle {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
 .cardTitle {
     color: #F9FAF8;
     font-size: 48px;
